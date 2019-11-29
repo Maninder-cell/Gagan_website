@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(253, 250, 235);
+}
+
+#_header{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+    font-style: italic;
+    font-variant: small-caps;
+}
+
+#nav1 {
+    background-color: dimgray;
+    width: 70%;
+    height: 3em;
+}
+
+#nav1 h2{
+    position: relative;
+    top: 1px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2.5em;
+}
+
+#nav2{
+    position: relative;
+    top: -3em;
+    left: 59em;
+    background-color: rgba(95, 158, 160, 0.466);
+    width: 30%;
+    height: 3em;
+}
+
+#nav2 .hover1{
+    position: relative;
+    width: 35%;
+    height: 1.5em;
+    left:30%;
+    background-color: beige;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2em;
+}
+
+#nav2 .hover1:hover{
+    background-color: skyblue;
+}
