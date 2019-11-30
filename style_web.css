@@ -31,6 +31,7 @@ body{
     background-color: rgba(95, 158, 160, 0.466);
     width: 30%;
     height: 3em;
+    box-shadow: 5px 5px 4px gray;
 }
 
 #nav2 .hover1{
@@ -43,6 +44,36 @@ body{
     font-size: 2em;
 }
 
-#nav2 .hover1:hover{
+#nav2 .hover1 span{
+    position: absolute;
+    top: 4px;
+    left: 6px;
+}
+
+#nav3{
+    display:none;
+}
+
+#nav3 .list{
+    list-style: none;
+    position: absolute;
+    left:-40px;
+    top: 10px;
+}
+
+#nav3 .list li{
+    background-color: rgb(241, 241, 152);
+    margin-top: 10px;
+    box-shadow: 4px 4px 2px gray;
+}
+
+#nav3 .list li:hover{
+    position: relative;
+    left: 20px;
+    background-color: lavender;
+}
+
+#nav2 .hover1:hover #nav3{
     background-color: skyblue;
+    display: block;
 }
