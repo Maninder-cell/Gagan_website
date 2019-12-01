@@ -2,12 +2,22 @@ body{
     background-color: rgb(253, 250, 235);
 }
 
+.first{
+    background-color: black;
+    height: 6em;
+    text-align: center;
+}
+
+
 #_header{
+    position: relative;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: x-large;
     font-style: italic;
     font-variant: small-caps;
+    color: white;
+    top: 0.5em;
 }
 
 #nav1 {
@@ -27,7 +37,7 @@ body{
 #nav2{
     position: relative;
     top: -3em;
-    left: 59em;
+    left: 58.3em;
     background-color: rgba(95, 158, 160, 0.466);
     width: 30%;
     height: 3em;
@@ -69,11 +79,54 @@ body{
 
 #nav3 .list li:hover{
     position: relative;
+    cursor: pointer;
     left: 20px;
     background-color: lavender;
 }
 
-#nav2 .hover1:hover #nav3{
+#nav2 .hover1:hover{
+    cursor: pointer;
     background-color: skyblue;
+}
+
+#nav2 .hover1:hover #nav3{
     display: block;
+}
+
+.image img{
+    position: absolute;
+    border: 3px solid black;
+    border-radius: 4em;
+    left: 4em;
+    height: 40em;
+    width: 30em;
+    filter: drop-shadow(10px 10px 5px gray);
+    z-index: 2;
+}
+
+.info{
+    position: relative;
+    top: 5em;
+    left: 10em;
+    background-color: black;
+    width: 50em;
+    height: 30em;
+    z-index: 1;
+    transition: all 2s ease;
+    box-shadow: 10px 10px 4px gray;
+    border: 10px groove gray;
+    opacity: 60%;
+}
+
+.info:hover{
+    transform: translate(23em);
+    opacity: 100%;
+}
+
+.info #main_info{
+    position: relative;
+    left: 0.5em;
+    color: white;
+    font-family: cursive;
+    font-size: 2.7em;
 }
