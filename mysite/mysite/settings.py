@@ -38,7 +38,7 @@ EMAIL_USE_TLS = True
 EMAIL_USE_SSL=False
 EMAIL_PORT = 587
 EMAIL_HOST_USER = "manindermatharu63@gmail.com"
-EMAIL_HOST_PASSWORD = "maninder90568"
+EMAIL_HOST_PASSWORD = "Maninder90568"
 
 # Application definition
 
